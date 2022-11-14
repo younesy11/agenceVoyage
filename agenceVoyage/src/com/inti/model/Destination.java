@@ -2,12 +2,12 @@ package com.inti.model;
 
 public class Destination {
 	
-	int idDestination;
-	float longitude;
-	float latitude;
+	long idDestination;
+	long longitude;
+	long latitude;
 
 	
-	public Destination(int idDestination, float longitude, float latitude) {
+	public Destination(long idDestination, long longitude, long latitude) {
 		
 		this.idDestination = idDestination;
 		this.longitude = longitude;
